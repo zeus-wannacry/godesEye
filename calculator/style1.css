@@ -1,0 +1,67 @@
+
+body{
+    position: relative;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+.main_container{
+   width: 330px;
+   height: 610px;
+   margin: 100px auto;
+   border-radius: 10px;
+   border: 1px solid white;
+   box-shadow: 1px 1px 5px white;
+}
+input{
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    color:white;
+    font-size: 50px;
+    text-align: end;
+    border: none;
+    border-radius: 10%;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+
+   
+}
+.btn_group{
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+    gap: 10px;
+    margin: 10px;
+}
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    color: white;
+    border: none;
+    font-size: 20px;
+    transition:  transform 1s;
+    box-shadow: -1px -1px 4px white;
+}
+button:hover{
+    transform: translateY(-10px);
+    background: orangered;
+}
+#btn:hover{
+    transform: translateY(-10px);
+    background:green;
+    color: #000;
+}
+#btn{
+    margin-left: 240px;
+    background: orangered;
+}
+#display{
+    width: 400px;
+    height: 400px;
+    background: white;
+    position: absolute;
+    top: 100px;
+    left: 800px;
+}
+#display{
+    display: none;
+}
